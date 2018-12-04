@@ -1,0 +1,377 @@
+h1{
+	text-align: center;
+	background-color: #4527A0;
+	color: white;
+	border-radius: 0px 0px 5px 5px;
+	margin-top: 0px;
+	height: 60px;
+	line-height: 60px;
+	font-family: 'Passion One'
+}
+
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color: #F5F5F5;
+}
+
+*{
+	font-family:"Droid Sans";
+}
+
+.descricaohist{
+	background-color: white;
+	margin: 15px;
+	padding: 15px;
+	-webkit-box-shadow: -1px 3px 11px -3px rgba(0,0,0,0.54);
+	-moz-box-shadow: -1px 3px 11px -3px rgba(0,0,0,0.54);
+	box-shadow: -1px 3px 11px -3px rgba(0,0,0,0.54);
+}
+
+.secundaria1{
+	float: left;
+	width: 60%; 
+}
+
+.secundaria2{
+	float: right;
+	width: 40%;
+}
+
+.clear{
+	clear: both;
+}
+
+.descricaopage{
+	margin-top: 20px;
+	padding-top: 30px;
+	background-color: white;
+	margin: 15px;
+	padding: 15px;
+	-webkit-box-shadow: -1px 3px 11px -3px rgba(0,0,0,0.54);
+	-moz-box-shadow: -1px 3px 11px -3px rgba(0,0,0,0.54);
+	box-shadow: -1px 3px 11px -3px rgba(0,0,0,0.54);	
+}
+
+.sumario{
+	background-color: white;
+	margin: 15px;
+	padding: 15px;
+	-webkit-box-shadow: -1px 3px 11px -3px rgba(0,0,0,0.54);
+	-moz-box-shadow: -1px 3px 11px -3px rgba(0,0,0,0.54);
+	box-shadow: -1px 3px 11px -3px rgba(0,0,0,0.54);	
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+li{
+	text-transform: none;
+}
+
+/*li:hover{
+	color: #2962FF;
+	text-decoration: underline;
+	font-size: 20px;*/
+}
+
+.negrito{
+	font-weight: bold;
+}
+
+.fundoazul{
+	background-color: #455A64;
+	height: 250px;
+	border-radius: 5px 5px 0px 0px;
+}
+
+.logoTI{
+	width: 150px;
+	float: right;
+	padding-right: 20%;
+	padding-top: 50px;
+}
+
+.historias{
+	background-color: white;
+	margin: 15px;
+	padding: 15px;
+	opacity: 0.6;
+	height: 100px;
+
+
+	-webkit-box-shadow: -1px 3px 11px -1px rgba(0,0,0,0.89);
+	-moz-box-shadow: -1px 3px 11px -1px rgba(0,0,0,0.89);
+	box-shadow: -1px 3px 11px -1px rgba(0,0,0,0.89);
+}
+
+.historias:hover{
+	opacity: 1.2;
+}
+
+li:hover{
+	color: black;
+	text-decoration: none;
+	font-size:px;
+	font-weight: bold;
+	transition: width 2s, height 2s;
+}
+
+.logoIF{
+	width: 120px;
+	float: ;
+	margin-left: 200px;
+	padding-top: 50px;
+}
+
+.logoNC{
+	width: 150px;
+	float: left;
+	padding-left: 20%;
+	padding-top: 50px;
+
+}
+.fotoloba {  
+    padding: 10px;  
+    padding-bottom: 40px;  
+    background-color: #F5F5F5;  
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.6);  
+    background-image: -webkit-linear-gradient(top, #EEEEEE 85%, #eee);  
+    background-image: -moz-linear-gradient(top, #EEEEEE 85%, #eee);  
+    background-image: linear-gradient(top, #EEEEEE 85%, #eee);  
+    -webkit-transform: rotate(-3deg);  
+    -moz-transform: rotate(-3deg);  
+    transform: rotate(-3deg);  
+  
+}  	
+
+/*.fotoloba:hover{
+	width: 500px;
+	transition: width 2s, height 2s, transform 2s;
+} 
+*/
+.capaHQ{
+	width: 75px;
+	float: left;
+	padding-left: 20px;
+}
+
+.textosumario{
+	float: right;
+}
+
+.teste1{
+	float: left;
+	width: 50%;
+}
+.apenas{
+	background-color: white;
+	margin: 15px;
+	padding: 15px;
+	-webkit-box-shadow: -1px 3px 11px -3px rgba(0,0,0,0.54);
+	-moz-box-shadow: -1px 3px 11px -3px rgba(0,0,0,0.54);
+	box-shadow: -1px 3px 11px -3px rgba(0,0,0,0.54);
+}
+.teste2{
+	float: right;
+	width: 50%;
+}
+
+		@media screen and (max-width: 1000px){
+			li{
+				font-size: 30px;
+			}
+			.secundaria1{
+				float: none;
+			}
+			.secundaria2{
+				float: none;
+			}
+			.primeiro,.segundo,.terceiro,.quarto,.quinto{
+				width: 33%;
+			}
+
+			.fotoloba{
+				width: 500px;
+				margin-left: 150px;
+			}
+
+			.teste1{
+				float: none;
+				width: 100%;
+			}
+			.teste2{
+				float: none;
+				width: 100%;
+			}
+			.logoTI{
+				width: 150px;
+				padding-right: 60px;
+			}
+			.logoIF{
+				width: 120px;
+				float: right; 
+				padding-right: 100px;
+			}
+			.logoNC{
+				width: 150px;
+				padding-left: 60px;
+			}
+			.fundoazul{
+				height: 250px;
+			}
+			.linksumario{
+			float: right;
+			width: 60%
+			}
+
+			.imagemsumario{
+				float: left;
+				width: 20%
+				}
+			.ti{
+				width: 33%;
+				float: right;
+			}
+			.nc{
+				width: 33%;
+				float: left;
+			}
+			.if{
+				width: 33%;
+				float: left;
+
+			}
+			.historias{
+				height: 200px;
+			}
+			.capaHQ{
+				width: 140px;
+				box-shadow: 3px 3px 10px rgba(0,0,0,0.2); 
+			}
+
+			.textosumario{
+				font-size: 30px;
+			}
+			h1{
+				height: 130px;
+				line-height: 130px;
+			}
+			.titulo{
+				font-size:50px;
+			}
+			.apenas{
+				margin: 30px;
+				padding: 30px;
+			}
+
+			.descricaopage{
+				margin: 30px;
+				padding: 30px;
+			}
+			.descricaohist{
+				margin: 30px;
+				padding: 30px;
+			}
+			.sumario{
+				margin: 45px;
+				padding: 30px;
+			}
+			li:hover{
+				font-size:30px;
+			}
+			.fundocaroseul{
+				margin-left: 160px;
+			}
+			.slider{
+				margin-left: 180px;
+			}
+			.primeiro,.segundo,.terceiro,.quarto,.quinto{
+				font-size: 50px;
+				width: 50%;
+
+			}
+			.coluna1{
+				float: left;
+				width: ;
+			}
+			.coluna2{
+				width: ;
+				float: ;
+			}
+			 li{
+				font-size: 30px;
+			}			
+		}
+.fundocaroseul{
+	margin-bottom:50px; 
+}
+
+/*#alunos*/
+#alunos{
+ padding: 15px;
+ display: none;
+ 
+ animation: 1s;
+ animation-fill-mode: forwards;
+}
+
+.primeiro{
+	float: left;
+	padding: 20px;
+	/*padding-left: 300px;*/ 
+
+}
+.segundo{
+	float: left;
+	padding: 20px;
+}
+.terceiro{
+	float: left;
+	padding: 20px;
+}
+.quarto{
+	float: left;
+	padding: 20px;
+}
+.quinto{
+	float: left;
+	padding: 20px;
+}
+
+@keyframes fadein {
+ 	0%{
+ 		opacity: 0;
+ 	}
+ 	50%{
+ 		opacity: 0px;
+ 	}
+ 	100%{
+ 		opacity: 1;
+ 	}
+}
+@keyframes fadeout {
+    0%{
+ 		opacity: 1;
+ 	}
+ 	100%{
+ 		opacity: 0;
+ 	}
+}
+
+#Alunos{
+	display: table;
+}
+.coluna1{
+	float: left;
+	width: ;
+}
+.coluna2{
+	width: ;
+	float: left;
+}
+li{
+	padding-bottom: 20px;
+}

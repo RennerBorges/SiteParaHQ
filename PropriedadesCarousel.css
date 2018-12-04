@@ -1,0 +1,81 @@
+.slider-content , .slider-content li 
+{
+width: 450px;
+height: 300px;
+}
+
+.slider-content 
+{
+overflow: hidden;
+list-style: none;
+padding-left:20px;
+padding: 15px;
+margin: 0;
+white-space: nowrap;
+border-radius: 3px;
+word-spacing: -2px; /* removing inline elements spacing */
+letter-spacing: -2px;
+}
+
+.slider-content li {
+display: inline-block;
+word-spacing: normal; /* restoring spacing */
+letter-spacing: normal;
+}
+
+@keyframes slider {
+0%, 17% {margin-left: 0;}
+19%, 36% {margin-left: -100%;}
+38%, 55% {margin-left: -200%;}
+57%, 74% {margin-left: -300%;}
+76%, 94% {margin-left: -400%;}
+95% {margin-left: -300%;}
+96% {margin-left: -200%;}
+97% {margin-left: -100%;}
+98%, 100% {margin-left: 0;}
+}
+
+@-webkit-keyframes slider {
+0%, 17% {margin-left: 0;}
+19%, 36% {margin-left: -100%;}
+38%, 55% {margin-left: -200%;}
+57%, 74% {margin-left: -300%;}
+76%, 94% {margin-left: -400%;}
+95% {margin-left: -300%;}
+96% {margin-left: -200%;}
+97% {margin-left: -100%;}
+98%, 100% {margin-left: 0;}
+}
+
+.slider-content li:first-child {
+-webkit-animation: slider 20s ease-out infinite;
+animation: slider 20s ease-out infinite;
+}
+.fundocaroseul{
+	background-color: #4527A0;
+	width: 500px;
+	height: 340px;
+	border-radius: 5px;
+	display: block;
+
+ 
+    padding: 10px;  
+    padding-bottom: 40px;  
+    background-color: #fff;  
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.4);  
+    background-image: -webkit-linear-gradient(top, #fff 85%, #eee);  
+    background-image: -moz-linear-gradient(top, #fff 85%, #eee);  
+    background-image: linear-gradient(top, #fff 85%, #eee);  
+
+}
+.fotopadrao{
+	width: 450px;
+	height: 350px;
+}
+.fotoespecial{
+	width: 450px;
+	height: 350px;
+}
+.slider-content{
+	margin-left: 10px;
+}
